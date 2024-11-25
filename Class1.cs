@@ -14,12 +14,7 @@ namespace _100_People_Uppgift
         public DateTime Birthyear { get; }
         public TimeSpan TS;
         Random Random = new Random();
-        public People(string firstName, string lastName, DateTime birthYear)
-        {
-            FirstName = firstName;
-            LastName = lastName;
-            Birthyear = birthYear;
-        }
+
         public People()
         {
             var rn = "Johan, John, Erik, Bertil, Oliver, Azat, Hampus, Adolf".Split(", ");
