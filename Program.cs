@@ -5,8 +5,15 @@
         static void Main(string[] args)
         {
             List<People> peopleList = new List<People>();
-            DateTime time = new DateTime(2003,9,11);
-            peopleList.Add(new People("Hello", "Hampus", time));
+            for (int i = 0; i < 100; i++)
+            {
+                peopleList.Add(new People());
+            }
+            var listSort = peopleList.OrderByDescending(x => x.TS);
+            foreach (People people in listSort)
+            {
+                Console.WriteLine($"{people.FirstName} {people.LastName} är {people.TS.Days / 365} år gammal");
+            }
             Console.ReadLine();
         }
     }
