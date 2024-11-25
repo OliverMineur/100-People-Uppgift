@@ -23,7 +23,7 @@ namespace _100_People_Uppgift
             string name;
             return name;
         }
-        private void RandomLastName()
+        private string RandomLastName()
         {
             string name;
             return name;
