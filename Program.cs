@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            List<People> peopleList = new List<People>(); 
+            List<People> peopleList = new List<People>();
+
         }
     }
 }
