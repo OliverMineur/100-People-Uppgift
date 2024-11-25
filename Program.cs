@@ -6,7 +6,7 @@
         {
             List<People> peopleList = new List<People>();
             DateTime time = new DateTime(2003,9,11);
-            peopleList.Add(new People("Hello", "Hampus", time));
+            peopleList.Add(new People());
             Console.ReadLine();
         }
     }
