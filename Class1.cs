@@ -25,22 +25,6 @@ namespace _100_People_Uppgift
             Birthyear = new DateTime(Random.Next(1900, 2024), Random.Next(1, 12), Random.Next(1, 28));
             TS = DateTime.Now - Birthyear;
         }
-        private string RandomFirstName()
-        {
-            string name;
-            return name;
-        }
-        private string RandomLastName()
-        {
-            string name;
-            return name;
-        }
-
-        private int GetAge()
-        {
-            int age;
-            return age;
-        }
 
     }
 
