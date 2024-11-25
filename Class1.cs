@@ -17,6 +17,24 @@ namespace _100_People_Uppgift
             LastName = lastName;
             Birthyear = birthYear;
         }
+
+        private string RandomFirstName()
+        {
+            string name;
+            return name;
+        }
+        private void RandomLastName()
+        {
+            string name;
+            return name;
+        }
+
+        private int GetAge()
+        {
+            int age;
+            return age;
+        }
+
     }
 
 }
