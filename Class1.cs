@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,7 +24,7 @@ namespace _100_People_Uppgift
             string name;
             return name;
         }
-        private void RandomLastName()
+        private String RandomLastName()
         {
             string name;
             return name;
